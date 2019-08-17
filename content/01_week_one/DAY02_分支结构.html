@@ -1,0 +1,968 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第二天 · Javascript·二阶段笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="郭翔">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-lightbox/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="DAY03_循环结构.html" />
+    
+    
+    <link rel="prev" href="DAY01_JavaScript基础语法.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    二阶段笔记
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="readme.html">
+            
+                <a href="readme.html">
+            
+                    
+                    第一周
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.1" data-path="DAY01_JavaScript基础语法.html">
+            
+                <a href="DAY01_JavaScript基础语法.html">
+            
+                    
+                    第一天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.1.1.2" data-path="DAY02_分支结构.html">
+            
+                <a href="DAY02_分支结构.html">
+            
+                    
+                    第二天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.3" data-path="DAY03_循环结构.html">
+            
+                <a href="DAY03_循环结构.html">
+            
+                    
+                    第三天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.4" data-path="DAY04_函数（上）.html">
+            
+                <a href="DAY04_函数（上）.html">
+            
+                    
+                    第四天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.5" data-path="DAY05_函数（下）.html">
+            
+                <a href="DAY05_函数（下）.html">
+            
+                    
+                    第五天
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="../02_week_two/readme.html">
+            
+                <a href="../02_week_two/readme.html">
+            
+                    
+                    第二周
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.1" data-path="../02_week_two/DAY01_数组.html">
+            
+                <a href="../02_week_two/DAY01_数组.html">
+            
+                    
+                    第一天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.2" data-path="../02_week_two/DAY02_字符串.html">
+            
+                <a href="../02_week_two/DAY02_字符串.html">
+            
+                    
+                    第二天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.3" data-path="../02_week_two/DAY03_Math和Date.html">
+            
+                <a href="../02_week_two/DAY03_Math和Date.html">
+            
+                    
+                    第三天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.4" data-path="../02_week_two/DAY04_BOM和DOM（上）.html">
+            
+                <a href="../02_week_two/DAY04_BOM和DOM（上）.html">
+            
+                    
+                    第四天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.5" data-path="../02_week_two/DAY05_DOM（下）.html">
+            
+                <a href="../02_week_two/DAY05_DOM（下）.html">
+            
+                    
+                    第五天
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="../03_week_three/readme.html">
+            
+                <a href="../03_week_three/readme.html">
+            
+                    
+                    第三周
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.3.1" data-path="../03_week_three/DAY01_EVENT（上）.html">
+            
+                <a href="../03_week_three/DAY01_EVENT（上）.html">
+            
+                    
+                    第一天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3.2" data-path="../03_week_three/DAY02_EVENT（下）.html">
+            
+                <a href="../03_week_three/DAY02_EVENT（下）.html">
+            
+                    
+                    第二天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3.3" data-path="../03_week_three/DAY03_正则.html">
+            
+                <a href="../03_week_three/DAY03_正则.html">
+            
+                    
+                    第三天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3.4" data-path="../03_week_three/DAY04_ES5和ES6.html">
+            
+                <a href="../03_week_three/DAY04_ES5和ES6.html">
+            
+                    
+                    第四天
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="../04_week_four/readme.html">
+            
+                <a href="../04_week_four/readme.html">
+            
+                    
+                    第四周
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.4.1" data-path="../04_week_four/DAY01_面向对象.html">
+            
+                <a href="../04_week_four/DAY01_面向对象.html">
+            
+                    
+                    第一天
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="../05_week_five/readme.html">
+            
+                <a href="../05_week_five/readme.html">
+            
+                    
+                    第五周
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.5.1" data-path="../05_week_five/DAY01_PHP.html">
+            
+                <a href="../05_week_five/DAY01_PHP.html">
+            
+                    
+                    第一天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.2" data-path="../05_week_five/DAY02_HTTP和COOKIE.html">
+            
+                <a href="../05_week_five/DAY02_HTTP和COOKIE.html">
+            
+                    
+                    第二天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.3" data-path="../05_week_five/DAY03_AJAX.html">
+            
+                <a href="../05_week_five/DAY03_AJAX.html">
+            
+                    
+                    第三天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.4" data-path="../05_week_five/DAY04_Promise.html">
+            
+                <a href="../05_week_five/DAY04_Promise.html">
+            
+                    
+                    第四天
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6" data-path="../06_week_six/readme.html">
+            
+                <a href="../06_week_six/readme.html">
+            
+                    
+                    第六周
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.6.1" data-path="../06_week_six/DAY01_闭包和继承.html">
+            
+                <a href="../06_week_six/DAY01_闭包和继承.html">
+            
+                    
+                    第一天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6.2" data-path="../06_week_six/DAY02_设计模式.html">
+            
+                <a href="../06_week_six/DAY02_设计模式.html">
+            
+                    
+                    第二天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6.3" data-path="../06_week_six/DAY03_jQuery（上）.html">
+            
+                <a href="../06_week_six/DAY03_jQuery（上）.html">
+            
+                    
+                    第三天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6.4" data-path="../06_week_six/DAY04_jQuery（中）.html">
+            
+                <a href="../06_week_six/DAY04_jQuery（中）.html">
+            
+                    
+                    第四天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6.5" data-path="../06_week_six/DAY05_jQuery（下）.html">
+            
+                <a href="../06_week_six/DAY05_jQuery（下）.html">
+            
+                    
+                    第五天
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7" data-path="../07_week_seven/readme.html">
+            
+                <a href="../07_week_seven/readme.html">
+            
+                    
+                    第七周
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.7.1" data-path="../07_week_seven/DAY01_NODE.html">
+            
+                <a href="../07_week_seven/DAY01_NODE.html">
+            
+                    
+                    第一天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7.2" data-path="../07_week_seven/DAY02_SASS.html">
+            
+                <a href="../07_week_seven/DAY02_SASS.html">
+            
+                    
+                    第二天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7.3" data-path="../07_week_seven/DAY03_GULP.html">
+            
+                <a href="../07_week_seven/DAY03_GULP.html">
+            
+                    
+                    第三天
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7.4" data-path="../07_week_seven/DAY04_GIT.html">
+            
+                <a href="../07_week_seven/DAY04_GIT.html">
+            
+                    
+                    第四天
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >第二天</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><h1 id="&#x5206;&#x652F;&#x7ED3;&#x6784;">&#x5206;&#x652F;&#x7ED3;&#x6784;</h1>
+<ul>
+<li>&#x6211;&#x4EEC;&#x7684; js &#x4EE3;&#x7801;&#x90FD;&#x662F;&#x987A;&#x5E8F;&#x6267;&#x884C;&#x7684;&#xFF08;&#x4ECE;&#x4E0A;&#x5230;&#x4E0B;&#xFF09;</li>
+<li>&#x903B;&#x8F91;&#x5206;&#x652F;&#x5C31;&#x662F;&#x6839;&#x636E;&#x6211;&#x4EEC;&#x8BBE;&#x5B9A;&#x597D;&#x7684;&#x6761;&#x4EF6;&#x6765;&#x51B3;&#x5B9A;&#x8981;&#x4E0D;&#x8981;&#x6267;&#x884C;&#x67D0;&#x4E9B;&#x4EE3;&#x7801;</li>
+</ul>
+<h2 id="if-&#x6761;&#x4EF6;&#x5206;&#x652F;&#x7ED3;&#x6784;">IF &#x6761;&#x4EF6;&#x5206;&#x652F;&#x7ED3;&#x6784;</h2>
+<h3 id="if-&#x8BED;&#x53E5;">if &#x8BED;&#x53E5;</h3>
+<ul>
+<li><p>&#x901A;&#x8FC7;&#x4E00;&#x4E2A; if &#x8BED;&#x53E5;&#x6765;&#x51B3;&#x5B9A;&#x4EE3;&#x7801;&#x6267;&#x884C;&#x4E0E;&#x5426;</p>
+</li>
+<li><p>&#x8BED;&#x6CD5;&#xFF1A; <code>if (&#x6761;&#x4EF6;) { &#x8981;&#x6267;&#x884C;&#x7684;&#x4EE3;&#x7801; }</code></p>
+</li>
+<li><p>&#x901A;&#x8FC7; <code>()</code> &#x91CC;&#x9762;&#x7684;&#x6761;&#x4EF6;&#x662F;&#x5426;&#x6210;&#x7ACB;&#x6765;&#x51B3;&#x5B9A; <code>{}</code> &#x91CC;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x662F;&#x5426;&#x6267;&#x884C;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x6761;&#x4EF6;&#x4E3A; true &#x7684;&#x65F6;&#x5019;&#x6267;&#x884C; {} &#x91CC;&#x9762;&#x7684;&#x4EE3;&#x7801;</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+  alert(<span class="hljs-string">&apos;&#x56E0;&#x4E3A;&#x6761;&#x4EF6;&#x662F; true&#xFF0C;&#x6211;&#x4F1A;&#x6267;&#x884C;&apos;</span>)
+}
+
+<span class="hljs-comment">// &#x6761;&#x4EF6;&#x4E3A; false &#x7684;&#x65F6;&#x5019;&#x4E0D;&#x6267;&#x884C; {} &#x91CC;&#x9762;&#x7684;&#x4EE3;&#x7801;</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+    alert(<span class="hljs-string">&apos;&#x56E0;&#x4E3A;&#x6761;&#x4EF6;&#x662F; false&#xFF0C;&#x6211;&#x4E0D;&#x4F1A;&#x6267;&#x884C;&apos;</span>)    
+}
+</code></pre>
+</li>
+</ul>
+<h3 id="if-else-&#x8BED;&#x53E5;">if else &#x8BED;&#x53E5;</h3>
+<ul>
+<li><p>&#x901A;&#x8FC7; if &#x6761;&#x4EF6;&#x6765;&#x51B3;&#x5B9A;&#xFF0C;&#x6267;&#x884C;&#x54EA;&#x4E00;&#x4E2A; <code>{}</code> &#x91CC;&#x9762;&#x7684;&#x4EE3;&#x7801;</p>
+</li>
+<li><p>&#x8BED;&#x6CD5;&#xFF1A; <code>if (&#x6761;&#x4EF6;) { &#x6761;&#x4EF6;&#x4E3A; true &#x7684;&#x65F6;&#x5019;&#x6267;&#x884C; } else { &#x6761;&#x4EF6;&#x4E3A; false &#x7684;&#x65F6;&#x5019;&#x6267;&#x884C; }</code></p>
+</li>
+<li><p>&#x4E24;&#x4E2A; <code>{}</code> &#x5185;&#x7684;&#x4EE3;&#x7801;&#x4E00;&#x5B9A;&#x6709;&#x4E00;&#x4E2A;&#x4F1A;&#x6267;&#x884C;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x6761;&#x4EF6;&#x4E3A; true &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F1A;&#x6267;&#x884C; if &#x540E;&#x9762;&#x7684; {} </span>
+<span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+  alert(<span class="hljs-string">&apos;&#x56E0;&#x4E3A;&#x6761;&#x4EF6;&#x662F; true&#xFF0C;&#x6211;&#x4F1A;&#x6267;&#x884C;&apos;</span>)
+} <span class="hljs-keyword">else</span> {
+  alert(<span class="hljs-string">&apos;&#x56E0;&#x4E3A;&#x6761;&#x4EF6;&#x662F; true&#xFF0C;&#x6211;&#x4E0D;&#x4F1A;&#x6267;&#x884C;&apos;</span>)
+}
+
+<span class="hljs-comment">// &#x6761;&#x4EF6;&#x4E3A; false &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F1A;&#x6267;&#x884C; else &#x540E;&#x9762;&#x7684; {}</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+  alert(<span class="hljs-string">&apos;&#x56E0;&#x4E3A;&#x6761;&#x4EF6;&#x4E3A; false&#xFF0C;&#x6211;&#x4E0D;&#x4F1A;&#x6267;&#x884C;&apos;</span>)
+} <span class="hljs-keyword">else</span> {
+  alert(<span class="hljs-string">&apos;&#x56E0;&#x4E3A;&#x6761;&#x4EF6;&#x4E3A; false&#xFF0C;&#x6211;&#x4F1A;&#x6267;&#x884C;&apos;</span>)
+}
+</code></pre>
+</li>
+</ul>
+<h3 id="if-else-if--&#x8BED;&#x53E5;">if else if ... &#x8BED;&#x53E5;</h3>
+<ul>
+<li><p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7; if &#x548C; else if &#x6765;&#x8BBE;&#x7F6E;&#x591A;&#x4E2A;&#x6761;&#x4EF6;&#x8FDB;&#x884C;&#x5224;&#x65AD;</p>
+</li>
+<li><p>&#x8BED;&#x6CD5;&#xFF1A;<code>if (&#x6761;&#x4EF6;1) { &#x6761;&#x4EF6;1&#x4E3A; true &#x7684;&#x65F6;&#x5019;&#x6267;&#x884C; } else if (&#x6761;&#x4EF6;2) { &#x6761;&#x4EF6;2&#x4E3A; true &#x7684;&#x65F6;&#x5019;&#x6267;&#x884C; }</code></p>
+</li>
+<li><p>&#x4F1A;&#x4ECE;&#x5934;&#x5F00;&#x59CB;&#x4F9D;&#x6B21;&#x5224;&#x65AD;&#x6761;&#x4EF6;</p>
+<ul>
+<li>&#x5982;&#x679C;&#x7B2C;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; true &#x4E86;&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x4F1A;&#x6267;&#x884C;&#x540E;&#x9762;&#x7684; <code>{}</code> &#x91CC;&#x9762;&#x7684;&#x5185;&#x5BB9;</li>
+<li>&#x5982;&#x679C;&#x7B2C;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; false&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x4F1A;&#x5224;&#x65AD;&#x7B2C;&#x4E8C;&#x4E2A;&#x6761;&#x4EF6;&#xFF0C;&#x4F9D;&#x6B21;&#x7C7B;&#x63A8;</li>
+</ul>
+</li>
+<li><p>&#x591A;&#x4E2A; <code>{}</code> &#xFF0C;&#x53EA;&#x4F1A;&#x6709;&#x4E00;&#x4E2A;&#x88AB;&#x6267;&#x884C;&#xFF0C;&#x4E00;&#x65E6;&#x6709;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; true &#x4E86;&#xFF0C;&#x540E;&#x9762;&#x7684;&#x5C31;&#x4E0D;&#x5728;&#x5224;&#x65AD;&#x4E86;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x7B2C;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; true&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; false&#xFF0C;&#x6700;&#x7EC8;&#x4F1A;&#x6253;&#x5370; &#x201C;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;1&#x201D;</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+  alert(<span class="hljs-string">&apos;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;1&apos;</span>)
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+    alert(<span class="hljs-string">&apos;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;2&apos;</span>)           
+}
+
+<span class="hljs-comment">// &#x7B2C;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; true&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; true&#xFF0C;&#x6700;&#x7EC8;&#x4F1A;&#x6253;&#x5370; &#x201C;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;1&#x201D;</span>
+<span class="hljs-comment">// &#x56E0;&#x4E3A;&#x53EA;&#x8981;&#x524D;&#x9762;&#x6709;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x6EE1;&#x8DB3;&#x4E86;&#xFF0C;&#x5C31;&#x4E0D;&#x4F1A;&#x7EE7;&#x7EED;&#x5224;&#x65AD;&#x4E86;</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+  alert(<span class="hljs-string">&apos;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;1&apos;</span>)
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+  alert(<span class="hljs-string">&apos;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;2&apos;</span>)
+}
+
+<span class="hljs-comment">// &#x7B2C;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; false&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; true&#xFF0C;&#x6700;&#x7EC8;&#x4F1A;&#x6253;&#x5370; &#x201C;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;2&#x201D;</span>
+<span class="hljs-comment">// &#x53EA;&#x6709;&#x524D;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; false &#x7684;&#x65F6;&#x5019;&#x624D;&#x4F1A;&#x7EE7;&#x7EED;&#x5411;&#x540E;&#x5224;&#x65AD;</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+  alert(<span class="hljs-string">&apos;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;1&apos;</span>)
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+  alert(<span class="hljs-string">&apos;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;2&apos;</span>)
+}
+
+<span class="hljs-comment">// &#x7B2C;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; false&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; false&#xFF0C;&#x6700;&#x7EC8;&#x4EC0;&#x4E48;&#x4E5F;&#x4E0D;&#x4F1A;&#x53D1;&#x751F;</span>
+<span class="hljs-comment">// &#x56E0;&#x4E3A;&#x5F53;&#x6240;&#x6709;&#x6761;&#x4EF6;&#x90FD;&#x4E3A; false &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E24;&#x4E2A; {} &#x91CC;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x90FD;&#x4E0D;&#x4F1A;&#x6267;&#x884C;</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+  alert(<span class="hljs-string">&apos;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;1&apos;</span>)
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+  alert(<span class="hljs-string">&apos;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;2&apos;</span>)
+}
+</code></pre>
+</li>
+</ul>
+<h3 id="if-else-if--else-&#x8BED;&#x53E5;">if else if &#x2026; else &#x8BED;&#x53E5;</h3>
+<ul>
+<li><p>&#x548C;&#x4E4B;&#x524D;&#x7684; <code>if else if ...</code> &#x57FA;&#x672C;&#x4E00;&#x81F4;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x662F;&#x5728;&#x6240;&#x6709;&#x6761;&#x4EF6;&#x90FD;&#x4E0D;&#x6EE1;&#x8DB3;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6267;&#x884C;&#x6700;&#x540E; else &#x540E;&#x9762;&#x7684; <code>{}</code></p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x7B2C;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; false&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x6761;&#x4EF6;&#x4E3A; false&#xFF0C;&#x6700;&#x7EC8;&#x4F1A;&#x6253;&#x5370; &#x201C;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;3&#x201D;</span>
+<span class="hljs-comment">// &#x53EA;&#x6709;&#x524D;&#x9762;&#x6240;&#x6709;&#x7684;&#x6761;&#x4EF6;&#x90FD;&#x4E0D;&#x6EE1;&#x8DB3;&#x7684;&#x65F6;&#x5019;&#x4F1A;&#x6267;&#x884C; else &#x540E;&#x9762;&#x7684; {} &#x91CC;&#x9762;&#x7684;&#x4EE3;&#x7801;</span>
+<span class="hljs-comment">// &#x53EA;&#x8981;&#x524D;&#x9762;&#x6709;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x6EE1;&#x8DB3;&#x4E86;&#xFF0C;&#x90A3;&#x4E48;&#x540E;&#x9762;&#x7684;&#x5C31;&#x90FD;&#x4E0D;&#x4F1A;&#x6267;&#x884C;&#x4E86;</span>
+<span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+  alert(<span class="hljs-string">&apos;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;1&apos;</span>)
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+  alert(<span class="hljs-string">&apos;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;2&apos;</span>)
+} <span class="hljs-keyword">else</span> {
+  alert(<span class="hljs-string">&apos;&#x6211;&#x662F;&#x4EE3;&#x7801;&#x6BB5;3&apos;</span>)
+}
+</code></pre>
+</li>
+</ul>
+<h2 id="switch-&#x6761;&#x4EF6;&#x5206;&#x652F;&#x7ED3;&#x6784;">SWITCH &#x6761;&#x4EF6;&#x5206;&#x652F;&#x7ED3;&#x6784;</h2>
+<ul>
+<li><p>&#x4E5F;&#x662F;&#x6761;&#x4EF6;&#x5224;&#x65AD;&#x8BED;&#x53E5;&#x7684;&#x4E00;&#x79CD;</p>
+</li>
+<li><p>&#x662F;&#x5BF9;&#x4E8E;&#x67D0;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x7684;&#x5224;&#x65AD;</p>
+</li>
+<li><p>&#x8BED;&#x6CD5;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">switch</span> (&#x8981;&#x5224;&#x65AD;&#x7684;&#x53D8;&#x91CF;) {
+  <span class="hljs-keyword">case</span> &#x60C5;&#x51B5;<span class="hljs-number">1</span>:
+    &#x60C5;&#x51B5;<span class="hljs-number">1</span>&#x8981;&#x6267;&#x884C;&#x7684;&#x4EE3;&#x7801;
+    <span class="hljs-keyword">break</span>
+  <span class="hljs-keyword">case</span> &#x60C5;&#x51B5;<span class="hljs-number">2</span>:
+    &#x60C5;&#x51B5;<span class="hljs-number">2</span>&#x8981;&#x6267;&#x884C;&#x7684;&#x4EE3;&#x7801;
+    <span class="hljs-keyword">break</span>
+  <span class="hljs-keyword">case</span> &#x60C5;&#x51B5;<span class="hljs-number">3</span>:
+    &#x60C5;&#x51B5;<span class="hljs-number">3</span>&#x8981;&#x6267;&#x884C;&#x7684;&#x4EE3;&#x7801;
+    <span class="hljs-keyword">break</span>
+  <span class="hljs-keyword">default</span>:
+    &#x4E0A;&#x8FF0;&#x60C5;&#x51B5;&#x90FD;&#x4E0D;&#x6EE1;&#x8DB3;&#x7684;&#x65F6;&#x5019;&#x6267;&#x884C;&#x7684;&#x4EE3;&#x7801;
+}
+</code></pre>
+<ul>
+<li>&#x8981;&#x5224;&#x65AD;&#x67D0;&#x4E00;&#x4E2A;&#x53D8;&#x91CF; &#x7B49;&#x4E8E; &#x67D0;&#x4E00;&#x4E2A;&#x503C;&#x5F97;&#x65F6;&#x5019;&#x4F7F;&#x7528;</li>
+</ul>
+</li>
+<li><p>&#x4F8B;&#x5B50;&#x1F330;&#xFF1A; &#x6839;&#x636E;&#x53D8;&#x91CF;&#x7ED9;&#x51FA;&#x7684;&#x6570;&#x5B57;&#x663E;&#x793A;&#x662F;&#x661F;&#x671F;&#x51E0;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> week = <span class="hljs-number">1</span>
+<span class="hljs-keyword">switch</span> (week) {
+  <span class="hljs-keyword">case</span> <span class="hljs-number">1</span>:
+    alert(<span class="hljs-string">&apos;&#x661F;&#x671F;&#x4E00;&apos;</span>)
+    <span class="hljs-keyword">break</span>
+  <span class="hljs-keyword">case</span> <span class="hljs-number">2</span>:
+    alert(<span class="hljs-string">&apos;&#x661F;&#x671F;&#x4E8C;&apos;</span>)
+    <span class="hljs-keyword">break</span>
+  <span class="hljs-keyword">case</span> <span class="hljs-number">3</span>:
+    alert(<span class="hljs-string">&apos;&#x661F;&#x671F;&#x4E09;&apos;</span>)
+    <span class="hljs-keyword">break</span>
+  <span class="hljs-keyword">case</span> <span class="hljs-number">4</span>:
+    alert(<span class="hljs-string">&apos;&#x661F;&#x671F;&#x56DB;&apos;</span>)
+    <span class="hljs-keyword">break</span>
+  <span class="hljs-keyword">case</span> <span class="hljs-number">5</span>:
+    alert(<span class="hljs-string">&apos;&#x661F;&#x671F;&#x4E94;&apos;</span>)
+    <span class="hljs-keyword">break</span>
+  <span class="hljs-keyword">case</span> <span class="hljs-number">6</span>:
+    alert(<span class="hljs-string">&apos;&#x661F;&#x671F;&#x516D;&apos;</span>)
+    <span class="hljs-keyword">break</span>
+  <span class="hljs-keyword">case</span> <span class="hljs-number">7</span>:
+    alert(<span class="hljs-string">&apos;&#x661F;&#x671F;&#x65E5;&apos;</span>)
+    <span class="hljs-keyword">break</span>
+  <span class="hljs-keyword">default</span>:
+    alert(<span class="hljs-string">&apos;&#x8BF7;&#x8F93;&#x5165;&#x4E00;&#x4E2A; 1 &#xFF5E; 7 &#x4E4B;&#x95F4;&#x7684;&#x6570;&#x5B57;&apos;</span>)
+}
+</code></pre>
+</li>
+</ul>
+<h2 id="&#x4E09;&#x5143;&#x8FD0;&#x7B97;&#xFF08;&#x6269;&#x5C55;&#xFF09;">&#x4E09;&#x5143;&#x8FD0;&#x7B97;&#xFF08;&#x6269;&#x5C55;&#xFF09;</h2>
+<ul>
+<li><p>&#x4E09;&#x5143;&#x8FD0;&#x7B97;&#xFF0C;&#x5C31;&#x662F;&#x7528; <strong>&#x4E24;&#x4E2A;&#x7B26;&#x53F7;</strong> &#x7EC4;&#x6210;&#x4E00;&#x4E2A;&#x8BED;&#x53E5;</p>
+</li>
+<li><p>&#x4E09;&#x5143;&#x8FD0;&#x7B97;&#x53EA;&#x662F;&#x5BF9; <strong>if else</strong> &#x8BED;&#x53E5;&#x7684;&#x4E00;&#x4E2A;&#x7B80;&#x5199;&#x5F62;&#x5F0F;</p>
+</li>
+<li><p>&#x8BED;&#x6CD5;&#xFF1A; <code>&#x6761;&#x4EF6; ? &#x6761;&#x4EF6;&#x4E3A; true &#x7684;&#x65F6;&#x5019;&#x6267;&#x884C; : &#x6761;&#x4EF6;&#x4E3A; false &#x7684;&#x65F6;&#x5019;&#x6267;&#x884C;</code></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> age = <span class="hljs-number">18</span>;
+age &gt;= <span class="hljs-number">18</span> ? alert(<span class="hljs-string">&apos;&#x5DF2;&#x7ECF;&#x6210;&#x5E74;&apos;</span>) : alert(<span class="hljs-string">&apos;&#x6CA1;&#x6709;&#x6210;&#x5E74;&apos;</span>)
+</code></pre>
+</li>
+</ul>
+ <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="DAY01_JavaScript基础语法.html" class="navigation navigation-prev " aria-label="Previous page: 第一天">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="DAY03_循环结构.html" class="navigation navigation-next " aria-label="Next page: 第三天">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第二天","level":"1.1.1.2","depth":3,"next":{"title":"第三天","level":"1.1.1.3","depth":3,"path":"content/01_week_one/DAY03_循环结构.md","ref":"./content/01_week_one/DAY03_循环结构.md","articles":[]},"previous":{"title":"第一天","level":"1.1.1.1","depth":3,"path":"content/01_week_one/DAY01_JavaScript基础语法.md","ref":"./content/01_week_one/DAY01_JavaScript基础语法.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","splitter","back-to-top-button","expandable-chapters-small","code","-sharing","sharing-plus","klipse","popup","lightbox","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"donate":{"wechat":"./static/微信收款.jpg","alipay":"支付宝收款的二维码URL","title":"","button":"赏","alipayText":"支付宝打赏","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"lightbox":{"jquery":true},"back-to-top-button":{},"expandable-chapters-small":{},"klipse":{"myConfigKey":"it's the default value"},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":false,"facebook":true,"weibo":false,"twitter":true,"pocket":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"郭翔","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Javascript·二阶段笔记","language":"zh-hans","links":{"sidebar":{}},"gitbook":"*","description":"针对千峰教育，北科校区 HTML5 二阶段笔记"},"file":{"path":"content/01_week_one/DAY02_分支结构.md","mtime":"2019-07-07T11:34:03.680Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-17T09:56:45.577Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lightbox/jquery.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lightbox/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
